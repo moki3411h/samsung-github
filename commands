@@ -1,0 +1,1231 @@
+hadoop@BDTT:~$ git init
+Command 'git' not found, but can be installed with:
+sudo apt install git
+hadoop@BDTT:~$ sudo apt-get update
+[sudo] password for hadoop: 
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Err:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Err:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Err:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Reading package lists... Done
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+hadoop@BDTT:~$ sudo apt-get update
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [294 B]
+Err:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease [294 B]
+Err:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+  Clearsigned file isn't valid, ghadoop@BDTT:~$ git init
+Command 'git' not found, but can be installed with:
+sudo apt install git
+hadoop@BDTT:~$ sudo apt-get update
+[sudo] password for hadoop: 
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Err:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Err:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Err:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+  Temporary failure resolving 'in.archive.ubuntu.com'
+Reading package lists... Done
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  Temporary failure resolving 'in.archive.ubuntu.com'
+W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+hadoop@BDTT:~$ sudo apt-get update
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [294 B]
+Err:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease [294 B]
+Err:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease [294 B]
+Err:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease [294 B]
+Err:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Reading package lists... Done    
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+E: The repository 'http://security.ubuntu.com/ubuntu jammy-security InRelease' is no longer signed.
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy InRelease' is no longer signed.
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease' is no longer signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease' is no longer signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+hadoop@BDTT:~$ sudo apt-get update
+Hit:1 http://in.archive.ubuntu.com/ubuntu jammy InRelease                   
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [934 kB]
+Get:5 http://in.archive.ubuntu.co011753m/ubuntu jammy-backports InRelease [127 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [1,108 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3,939 kB]                                             
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3,674 kB]                                              
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [513 kB]                                                
+Get:10 http://in.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [579 kB]                                              
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [74.3 kB]                                       
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 48x48 Icons [22.9 kB]                                          
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 64x64 Icons [34.5 kB]                                          
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]                                        
+Get:15 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [118 kB]                                       
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6,545 kB]                                       
+Get:17 http://in.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 48x48 Icons [37.0 kB]                                         
+Get:18 http://in.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 64x64 Icons [56.3 kB]                                         
+Get:19 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [20.1 kB]                                       
+Get:20 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted i386 Packages [55.9 kB]                                        
+Get:21 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [6,778 kB]                                      
+Get:22 http://security.ubuntu.com/ubuntu jammy-security/restricted i386 Packages [52.9 kB]                                         
+Get:23 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [1,261 kB]                                       
+Get:24 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [1,303 kB]                                      
+Get:25 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 DEP-11 Metadata [208 B]                                   
+Get:26 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [600 B]                                    
+Get:27 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 DEP-11 Metadata [212 B]                                  
+Get:28 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [584 B]                                   
+Get:29 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [824 kB]                                           
+Get:30 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1,057 kB]                                         
+Get:31 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,289 kB]                                        
+Get:32 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [715 kB]                                            
+Get:33 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [238 kB]                                           
+Get:34 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [326 kB]                                          
+Get:35 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [127 kB]                                    
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 48x48 Icons [83.4 kB]                                      
+Get:37 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64 Icons [124 kB]                                       
+Get:38 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [360 kB]                                   
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [23.2 kB]                                    
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [79.6 kB]                                        
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/multiverse i386 Packages [12.3 kB]                                         
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [13.7 kB]                                        
+Get:43 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 DEP-11 Metadata [208 B]                                   
+Get:44 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [544 B]                                    
+Get:45 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 48x48 Icons [253 kB]                                      
+Get:46 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 64x64 Icons [410 kB]                                      
+Get:47 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.8 kB]                                   
+Get:48 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse i386 Packages [15.7 kB]                                        
+Get:49 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.1 kB]                                       
+Get:50 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [16.6 kB]                                       
+Get:51 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]                                  
+Get:52 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]                                   
+Get:53 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [70.2 kB]                                           
+Get:54 http://in.archive.ubuntu.com/ubuntu jammy-backports/main i386 Packages [61.7 kB]                                            
+Get:55 http://in.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.4 kB]                                           
+Get:56 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [5,772 B]                                    
+Get:57 http://in.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 48x48 Icons [9,535 B]                                       
+Get:58 http://in.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 64x64 Icons [11.3 kB]                                       
+Get:59 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]                                       
+Get:60 http://in.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 DEP-11 Metadata [212 B]                                
+Get:61 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]                                       
+Get:62 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages [19.6 kB]                                        
+Get:63 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.9 kB]                                       
+Get:64 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12.4 kB]                                
+Get:65 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 48x48 Icons [19.7 kB]                                   
+Get:66 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 64x64 Icons [28.3 kB]                                   
+Get:67 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]                                   
+Get:68 http://in.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 DEP-11 Metadata [212 B]                                
+Fetched 33.9 MB in 3min 16s (173 kB/s)                                                                                             
+Reading package lists... Done
+hadoop@BDTT:~$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 604 not upgraded.
+Need to get 4,154 kB of archives.
+After this operation, 21.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.18 [954 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.18 [3,174 kB]                       
+Fetched 4,154 kB in 43s (95.7 kB/s)                                                                                                
+Selecting previously unselected package liberror-perl.
+(Reading database ... 240910 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+Unpacking liberror-perl (0.17029-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.34.1-1ubuntu1.18_all.deb ...
+Unpacking git-man (1:2.34.1-1ubuntu1.18) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.18_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.18) ...
+Setting up liberror-perl (0.17029-1) ...
+Setting up git-man (1:2.34.1-1ubuntu1.18) ...
+Setting up git (1:2.34.1-1ubuntu1.18) ...
+Processing triggers for man-db (2.10.2-1) ...
+hadoop@BDTT:~$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/hadoop/.git/
+hadoop@BDTT:~$ git config --global user.name "moki3411h
+> ^C
+hadoop@BDTT:~$ git --v
+unknown option: --v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+hadoop@BDTT:~$ git --version
+git version 2.34.1
+hadoop@BDTT:~$ git config --global user.name "moki3411h"
+hadoop@BDTT:~$ git config --global user.email "mokesh7319@gmail.com"
+hadoop@BDTT:~$ git config --global user.email
+mokesh7319@gmail.com
+hadoop@BDTT:~$ git config --global user.name
+moki3411h
+hadoop@BDTT:~$ cd home
+bash: cd: home: No such file or directory
+hadoop@BDTT:~$ mkdir RA2411032010067
+hadoop@BDTT:~$ cd RA2411032010067
+hadoop@BDTT:~/RA2411032010067$ nano mokesh.py
+hadoop@BDTT:~/RA2411032010067$ python --version
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+hadoop@BDTT:~/RA2411032010067$ gitt add .
+Command 'gitt' not found, did you mean:
+  command 'gita' from deb gita (0.16.2-1)
+  command 'git' from deb git (1:2.34.1-1ubuntu1.17)
+  command 'gitit' from deb gitit (0.13.0.0+dfsg-2build5)
+  command 'gitg' from deb gitg (41-2)
+  command 'gist' from deb yorick (2.2.04+dfsg1-12)
+  command 'gitk' from deb gitk (1:2.34.1-1ubuntu1.17)
+Try: sudo apt install <deb name>
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit
+Aborting commit due to empty commit message.
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+[master (root-commit) 716c95d] file is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 RA2411032010067/mokesh.py
+hadoop@BDTT:~/RA2411032010067$ git branch
+* master
+hadoop@BDTT:~/RA2411032010067$ git branch -A
+error: unknown switch `A'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+hadoop@BDTT:~/RA2411032010067$ git branch -a
+* master
+hadoop@BDTT:~/RA2411032010067$ git branch mokesh
+hadoop@BDTT:~/RA2411032010067$ git branch
+* master
+  mokesh
+hadoop@BDTT:~/RA2411032010067$ git checkout
+hadoop@BDTT:~/RA2411032010067$ git checkout mokesh
+Switched to branch 'mokesh'
+hadoop@BDTT:~/RA2411032010067$ git branch
+  master
+* mokesh
+hadoop@BDTT:~/RA2411032010067$ nano test.py
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit "file is added"
+error: pathspec 'file is added' did not match any file(s) known to git
+hadoop@BDTT:~/RA2411032010067$ git commit "file is added is added"
+error: pathspec 'file is added is added' did not match any file(s) known to git
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added is added"
+[mokesh b9318cb] file is added is added
+ 1 file changed, 4 insertions(+)
+ create mode 100644 RA2411032010067/test.py
+hadoop@BDTT:~/RA2411032010067$ git branch srm
+hadoop@BDTT:~/RA2411032010067$ git checkout srm
+Switched to branch 'srm'
+hadoop@BDTT:~/RA2411032010067$ readme.txt
+readme.txt: command not found
+hadoop@BDTT:~/RA2411032010067$ nano readme.txt
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added is added"
+[srm 1efd680] file is added is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 RA2411032010067/readme.txt
+hadoop@BDTT:~/RA2411032010067$ 
+
+
+
+
+hadoop@BDTT:~/RA2411032010067$ git branch samsung
+hadoop@BDTT:~/RA2411032010067$ git checkout samsung
+Switched to branch 'samsung'
+hadoop@BDTT:~/RA2411032010067$ nano readme,txt
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+[samsung bfa3a09] file is added
+ 2 files changed, 2 insertions(+)
+ create mode 100644 RA2411032010067/+.odt
+ create mode 100644 RA2411032010067/readme,txt
+hadoop@BDTT:~/RA2411032010067$ git log
+commit bfa3a090e9b214c5b7716058ed9d9bf48c96db3f (HEAD -> samsung)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 11:04:59 2026 +0530
+
+    file is added
+
+commit 1efd680c3fdc7ebb8f2bf04506caa3eb48f6efe3 (srm)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 11:00:17 2026 +0530
+
+    file is added is added
+
+commit b9318cb3f223f7e7db6f45b29816ef4613b0b68a (mokesh)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 10:57:12 2026 +0530
+
+    file is added is added
+
+commit 716c95d191855f153139a8bd331dfc49aa637206 (master)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 10:48:28 2026 +0530
+
+    file is added
+hadoop@BDTT:~/RA2411032010067$ 
+
+hadoop@BDTT:~/RA2411032010067$ git switch master
+Switched to branch 'master'
+hadoop@BDTT:~/RA2411032010067$ git merge samsung
+Updating 716c95d..bfa3a09
+Fast-forward
+ RA2411032010067/+.odt      | Bin 0 -> 58134 bytes
+ RA2411032010067/readme,txt |   2 ++
+ RA2411032010067/readme.txt |   1 +
+ RA2411032010067/test.py    |   4 ++++
+ 4 files changed, 7 insertions(+)
+ create mode 100644 RA2411032010067/+.odt
+ create mode 100644 RA2411032010067/readme,txt
+ create mode 100644 RA2411032010067/readme.txt
+ create mode 100644 RA2411032010067/test.py
+hadoop@BDTT:~/RA2411032010067$ git checkout master
+Already on 'master'
+hadoop@BDTT:~/RA2411032010067$ git branch samsung
+fatal: A branch named 'samsung' already exists.
+hadoop@BDTT:~/RA2411032010067$ git branch samsung -d
+Deleted branch samsung (was bfa3a09).
+hadoop@BDTT:~/RA2411032010067$ 
+
+hadoop@BDTT:~/RA2411032010067$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	.~lock.+.odt#
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ gh auth login
+Command 'gh' not found, but can be installed with:
+sudo snap install gh       # version 2.6.0-15-g1a10fd5a, or
+sudo apt  install gh       # version 2.4.0+dfsg1-2
+sudo apt  install gitsome  # version 0.8.0+ds-6ubuntu1
+See 'snap info gh' for additional versions.
+hadoop@BDTT:~/RA2411032010067$ ot 'NOSPLIT' (does the network require authentication?)
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease [294 B]
+Err:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease [294 B]
+Err:4 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+Reading package lists... Done    
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+E: The repository 'http://security.ubuntu.com/ubuntu jammy-security InRelease' is no longer signed.
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy InRelease' is no longer signed.
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease' is no longer signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  Clearsigned file isn't valid, got 'NOSPLIT' (does the network require authentication?)
+E: The repository 'http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease' is no longer signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+hadoop@BDTT:~$ sudo apt-get update
+Hit:1 http://in.archive.ubuntu.com/ubuntu jammy InRelease                   
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [934 kB]
+Get:5 http://in.archive.ubuntu.co011753m/ubuntu jammy-backports InRelease [127 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [1,108 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3,939 kB]                                             
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3,674 kB]                                              
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [513 kB]                                                
+Get:10 http://in.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [579 kB]                                              
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [74.3 kB]                                       
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 48x48 Icons [22.9 kB]                                          
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 64x64 Icons [34.5 kB]                                          
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.7 kB]                                        
+Get:15 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [118 kB]                                       
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6,545 kB]                                       
+Get:17 http://in.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 48x48 Icons [37.0 kB]                                         
+Get:18 http://in.archive.ubuntu.com/ubuntu jammy-updates/main DEP-11 64x64 Icons [56.3 kB]                                         
+Get:19 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [20.1 kB]                                       
+Get:20 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted i386 Packages [55.9 kB]                                        
+Get:21 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [6,778 kB]                                      
+Get:22 http://security.ubuntu.com/ubuntu jammy-security/restricted i386 Packages [52.9 kB]                                         
+Get:23 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [1,261 kB]                                       
+Get:24 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [1,303 kB]                                      
+Get:25 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 DEP-11 Metadata [208 B]                                   
+Get:26 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [600 B]                                    
+Get:27 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 DEP-11 Metadata [212 B]                                  
+Get:28 http://in.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [584 B]                                   
+Get:29 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [824 kB]                                           
+Get:30 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1,057 kB]                                         
+Get:31 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,289 kB]                                        
+Get:32 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [715 kB]                                            
+Get:33 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [238 kB]                                           
+Get:34 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [326 kB]                                          
+Get:35 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [127 kB]                                    
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 48x48 Icons [83.4 kB]                                      
+Get:37 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64 Icons [124 kB]                                       
+Get:38 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [360 kB]                                   
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [23.2 kB]                                    
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [79.6 kB]                                        
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/multiverse i386 Packages [12.3 kB]                                         
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [13.7 kB]                                        
+Get:43 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 DEP-11 Metadata [208 B]                                   
+Get:44 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [544 B]                                    
+Get:45 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 48x48 Icons [253 kB]                                      
+Get:46 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 64x64 Icons [410 kB]                                      
+Get:47 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.8 kB]                                   
+Get:48 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse i386 Packages [15.7 kB]                                        
+Get:49 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.1 kB]                                       
+Get:50 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [16.6 kB]                                       
+Get:51 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]                                  
+Get:52 http://in.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]                                   
+Get:53 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [70.2 kB]                                           
+Get:54 http://in.archive.ubuntu.com/ubuntu jammy-backports/main i386 Packages [61.7 kB]                                            
+Get:55 http://in.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.4 kB]                                           
+Get:56 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [5,772 B]                                    
+Get:57 http://in.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 48x48 Icons [9,535 B]                                       
+Get:58 http://in.archive.ubuntu.com/ubuntu jammy-backports/main DEP-11 64x64 Icons [11.3 kB]                                       
+Get:59 http://in.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]                                       
+Get:60 http://in.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 DEP-11 Metadata [212 B]                                
+Get:61 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]                                       
+Get:62 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages [19.6 kB]                                        
+Get:63 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.9 kB]                                       
+Get:64 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12.4 kB]                                
+Get:65 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 48x48 Icons [19.7 kB]                                   
+Get:66 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe DEP-11 64x64 Icons [28.3 kB]                                   
+Get:67 http://in.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]                                   
+Get:68 http://in.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 DEP-11 Metadata [212 B]                                
+Fetched 33.9 MB in 3min 16s (173 kB/s)                                                                                             
+Reading package lists... Done
+hadoop@BDTT:~$ sudo apt-get install git
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 604 not upgraded.
+Need to get 4,154 kB of archives.
+After this operation, 21.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.18 [954 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.18 [3,174 kB]                       
+Fetched 4,154 kB in 43s (95.7 kB/s)                                                                                                
+Selecting previously unselected package liberror-perl.
+(Reading database ... 240910 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+Unpacking liberror-perl (0.17029-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.34.1-1ubuntu1.18_all.deb ...
+Unpacking git-man (1:2.34.1-1ubuntu1.18) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.18_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.18) ...
+Setting up liberror-perl (0.17029-1) ...
+Setting up git-man (1:2.34.1-1ubuntu1.18) ...
+Setting up git (1:2.34.1-1ubuntu1.18) ...
+Processing triggers for man-db (2.10.2-1) ...
+hadoop@BDTT:~$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/hadoop/.git/
+hadoop@BDTT:~$ git config --global user.name "moki3411h
+> ^C
+hadoop@BDTT:~$ git --v
+unknown option: --v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+hadoop@BDTT:~$ git --version
+git version 2.34.1
+hadoop@BDTT:~$ git config --global user.name "moki3411h"
+hadoop@BDTT:~$ git config --global user.email "mokesh7319@gmail.com"
+hadoop@BDTT:~$ git config --global user.email
+mokesh7319@gmail.com
+hadoop@BDTT:~$ git config --global user.name
+moki3411h
+hadoop@BDTT:~$ cd home
+bash: cd: home: No such file or directory
+hadoop@BDTT:~$ mkdir RA2411032010067
+hadoop@BDTT:~$ cd RA2411032010067
+hadoop@BDTT:~/RA2411032010067$ nano mokesh.py
+hadoop@BDTT:~/RA2411032010067$ python --version
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+hadoop@BDTT:~/RA2411032010067$ gitt add .
+Command 'gitt' not found, did you mean:
+  command 'gita' from deb gita (0.16.2-1)
+  command 'git' from deb git (1:2.34.1-1ubuntu1.17)
+  command 'gitit' from deb gitit (0.13.0.0+dfsg-2build5)
+  command 'gitg' from deb gitg (41-2)
+  command 'gist' from deb yorick (2.2.04+dfsg1-12)
+  command 'gitk' from deb gitk (1:2.34.1-1ubuntu1.17)
+Try: sudo apt install <deb name>
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit
+Aborting commit due to empty commit message.
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+[master (root-commit) 716c95d] file is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 RA2411032010067/mokesh.py
+hadoop@BDTT:~/RA2411032010067$ git branch
+* master
+hadoop@BDTT:~/RA2411032010067$ git branch -A
+error: unknown switch `A'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+hadoop@BDTT:~/RA2411032010067$ git branch -a
+* master
+hadoop@BDTT:~/RA2411032010067$ git branch mokesh
+hadoop@BDTT:~/RA2411032010067$ git branch
+* master
+  mokesh
+hadoop@BDTT:~/RA2411032010067$ git checkout
+hadoop@BDTT:~/RA2411032010067$ git checkout mokesh
+Switched to branch 'mokesh'
+hadoop@BDTT:~/RA2411032010067$ git branch
+  master
+* mokesh
+hadoop@BDTT:~/RA2411032010067$ nano test.py
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit "file is added"
+error: pathspec 'file is added' did not match any file(s) known to git
+hadoop@BDTT:~/RA2411032010067$ git commit "file is added is added"
+error: pathspec 'file is added is added' did not match any file(s) known to git
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added is added"
+[mokesh b9318cb] file is added is added
+ 1 file changed, 4 insertions(+)
+ create mode 100644 RA2411032010067/test.py
+hadoop@BDTT:~/RA2411032010067$ git branch srm
+hadoop@BDTT:~/RA2411032010067$ git checkout srm
+Switched to branch 'srm'
+hadoop@BDTT:~/RA2411032010067$ readme.txt
+readme.txt: command not found
+hadoop@BDTT:~/RA2411032010067$ nano readme.txt
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+On branch srm
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.~lock.commands.txt#
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	readme.txt
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added is added"
+[srm 1efd680] file is added is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 RA2411032010067/readme.txt
+hadoop@BDTT:~/RA2411032010067$ 
+
+
+
+
+hadoop@BDTT:~/RA2411032010067$ git branch samsung
+hadoop@BDTT:~/RA2411032010067$ git checkout samsung
+Switched to branch 'samsung'
+hadoop@BDTT:~/RA2411032010067$ nano readme,txt
+hadoop@BDTT:~/RA2411032010067$ git add .
+hadoop@BDTT:~/RA2411032010067$ git commit -m "file is added"
+[samsung bfa3a09] file is added
+ 2 files changed, 2 insertions(+)
+ create mode 100644 RA2411032010067/+.odt
+ create mode 100644 RA2411032010067/readme,txt
+hadoop@BDTT:~/RA2411032010067$ git log
+commit bfa3a090e9b214c5b7716058ed9d9bf48c96db3f (HEAD -> samsung)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 11:04:59 2026 +0530
+
+    file is added
+
+commit 1efd680c3fdc7ebb8f2bf04506caa3eb48f6efe3 (srm)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 11:00:17 2026 +0530
+
+    file is added is added
+
+commit b9318cb3f223f7e7db6f45b29816ef4613b0b68a (mokesh)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 10:57:12 2026 +0530
+
+    file is added is added
+
+commit 716c95d191855f153139a8bd331dfc49aa637206 (master)
+Author: moki3411h <mokesh7319@gmail.com>
+Date:   Wed Nov 4 10:48:28 2026 +0530
+
+    file is added
+hadoop@BDTT:~/RA2411032010067$ 
+
+hadoop@BDTT:~/RA2411032010067$ git switch master
+Switched to branch 'master'
+hadoop@BDTT:~/RA2411032010067$ git merge samsung
+Updating 716c95d..bfa3a09
+Fast-forward
+ RA2411032010067/+.odt      | Bin 0 -> 58134 bytes
+ RA2411032010067/readme,txt |   2 ++
+ RA2411032010067/readme.txt |   1 +
+ RA2411032010067/test.py    |   4 ++++
+ 4 files changed, 7 insertions(+)
+ create mode 100644 RA2411032010067/+.odt
+ create mode 100644 RA2411032010067/readme,txt
+ create mode 100644 RA2411032010067/readme.txt
+ create mode 100644 RA2411032010067/test.py
+hadoop@BDTT:~/RA2411032010067$ git checkout master
+Already on 'master'
+hadoop@BDTT:~/RA2411032010067$ git branch samsung
+fatal: A branch named 'samsung' already exists.
+hadoop@BDTT:~/RA2411032010067$ git branch samsung -d
+Deleted branch samsung (was bfa3a09).
+hadoop@BDTT:~/RA2411032010067$ 
+
+hadoop@BDTT:~/RA2411032010067$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.beeline/
+	../.cache/
+	../.config/
+	../.gitconfig
+	../.gnupg/
+	../.java/
+	../.lesshst
+	../.local/
+	../.m2/
+	../.pig_history
+	../.pki/
+	../.profile
+	../.python_history
+	../.scala_history
+	../.ssh/
+	../.sudo_as_admin_successful
+	../Downloads/
+	../IdeaProjects/
+	../MR WC steps.txt
+	../Pig Commands.txt
+	.~lock.+.odt#
+	../allfiles/
+	../apache-hive-3.1.2-bin.tar.gz
+	../apache-storm-1.0.0.tar.gz
+	../apache-zookeeper-3.9.1-bin.tar.gz
+	../commands.txt
+	../files/
+	../fw.txt
+	../hadoop-3.3.6.tar.gz
+	../hadoop/
+	../hdfs/
+	../hive/
+	../hive_commands.txt
+	../kafka_2.13-3.5.1.tgz
+	../kafka_steps.txt
+	../kstreams/
+	../lang.txt
+	../mr/
+	../pig isntallation steps
+	../pig-0.17.0.tar.gz
+	../pig/
+	../snap/
+	../spark-3.5.0-bin-hadoop3.tgz
+	../spark-word-count.txt
+	../sprk-struct-streaming.txt
+	../storm.txt
+	../storm/
+	../storm1/
+	../stormmult.txt
+	../story.txt
+	../zookeeper/
+	../zookeeper_commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+hadoop@BDTT:~/RA2411032010067$ gh auth login
+Command 'gh' not found, but can be installed with:
+sudo snap install gh       # version 2.6.0-15-g1a10fd5a, or
+sudo apt  install gh       # version 2.4.0+dfsg1-2
+sudo apt  install gitsome  # version 0.8.0+ds-6ubuntu1
+See 'snap info gh' for additional versions.
+hadoop@BDTT:~/RA2411032010067$ 
